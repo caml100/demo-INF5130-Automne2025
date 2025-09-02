@@ -1,15 +1,14 @@
 # Démo-INF5130-Automne2025
 Dépôt de démonstration pour les démonstrations du cours INF5130 (Algorithmique) pour la session d'automne 2025.
 
-## Conposition
+## Composition
 
-Pour chaque séance, il y aura l'énoncé, mes solutions aux problèmes ainsi que des implémentations des pseudocodes (si applicables) dans les languages suivants :
+Pour chaque séance, il y aura mes solutions aux exercises abordés dans les démos ainsi que des implémentations des pseudocodes (si applicables) dans les languages suivants :
 - C++
 - *OCaml
 - Python et/ou Prolog (algorithme de retour arrière)
 
 Aussi peut être de temps en temps certains algorithmes vu durant les séances magistrales implémentés ;).
-
 
 ## Contacts
 
