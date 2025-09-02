@@ -1,5 +1,5 @@
 # Démo-INF5130-Automne2025
-Dépôt de démonstration pour les démonstrations du cours INF5130 (Algorithmique) pour la session d'automne 2025.
+Dépôt contenant les solutions des démonstrations du cours INF5130 (Algorithmique) pour la session d'automne 2025.
 
 ## Composition
 
