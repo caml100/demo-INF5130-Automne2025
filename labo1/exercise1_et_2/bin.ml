@@ -23,7 +23,7 @@ let create num =
     let rec create num acc =
       match num with
       | 0 -> acc
-      | x when x mod 2 = 0 -> create (num lsr 1) (0 :: acc) (* nombre lst 1 = nombre / 2 *)
+      | x when x mod 2 = 0 -> create (num lsr 1) (0 :: acc) (* nombre lsr 1 = nombre / 2 *)
       | _ -> create (num lsr 1) (1 :: acc)
     in create num [] |> of_list
 
@@ -70,3 +70,13 @@ let mult_bin num1 num2 =
   mult num1 num2 (Zero (Fin)) 0
 
 
+
+let print_bin bin = 
+  let rec transform bin acc =
+    match bin with
+    | Fin -> acc
+    | One (rest) -> transform rest (1 :: acc)
+    | Zero (rest) -> transform rest (0 :: acc)
+  in
+  transform bin [] |> List.iter print_int;
+  print_newline ()
