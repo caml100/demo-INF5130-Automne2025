@@ -28,7 +28,7 @@ Pour des questions sur le matériel de laboratoire, vous pouvez me contacter via
 
 Note : Pour le code écrit en OCaml, il y aura du code impératif tout comme du code fonctionnel ou les deux. Si vous faites cette session INF6120, prenait garde de ne pas prende note
 sur le code OCaml impératif pour éviter des problèmes pour le cours citées précédemment. Ceci s'applique aussi pour ceux qui n'ont pas encore fait le cours. Pour ceux qui ont fait le cours,
-il y aura un document en annexe de ce dépôt expliquant comment utiliser la partie impérative de OCaml.
+il y aura un document en annexe de ce dépôt expliquant comment utiliser la partie impérative de OCaml. Les programmes écrits en OCaml peuvent être lancer via la commande `utop`.
 
 
 Bonne session à vous tous. :)
