@@ -16,7 +16,6 @@ class complex_number {
     complex_number add(const complex_number&) const;
     complex_number sub(const complex_number&) const;
     complex_number mult(const complex_number&) const;
-    complex_number pow(const complex_number&) const;
     complex_number operator+(const complex_number&) const;
     complex_number operator-(const complex_number&) const;
     complex_number operator*(const complex_number&) const;
