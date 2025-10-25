@@ -78,14 +78,6 @@ let rec fft_ a =
       result
   )
 
-(*
-(*[log2 n 0] un petit raccourci pour savoir le logarithme en base 2 de [n]
- *)
-let rec log2 n acc =
-  match n with
-  | a when a < 2 -> acc
-  | _ -> log2 (n lsr 1) (acc + 1)
-*)
 
 let rec scinde_pair_impair lst index acc =
     match lst with
